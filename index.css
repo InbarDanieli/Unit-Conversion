@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
+
+* {
+    margin: 0;
+}
+
+body{
+    background: #F4F4F4;
+    font-family: 'Inter', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.headerContainer{
+   background: #6943FF;
+   
+   color: white;
+      
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 32px 52px;
+}
+
+.title{
+    font-size: min(5vw, 38px);
+    font-family:inherit;
+    font-weight: 800;
+    margin-top: 0; 
+}
+
+#inputNum{
+    width: 20%;
+    max-width: 200px;
+    
+    background: none;
+    
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 32px;
+    
+    color: inherit;
+    text-align: center;
+    font-size: min(10vw, 64px);
+    font-family:inherit;
+    font-weight: 800;    
+}
+
+#convert-btn{
+    font-family:inherit;
+    font-size: min(3vw, 16px);
+    
+    width: 24%;
+    max-width: 200px;
+    
+    margin-top: 24px;
+    padding: 18px 0;
+    border: none;
+    
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.bodyContainer{    
+    margin: 0;
+    padding: 42px 32px;
+}
+
+
+.tabContainer{
+    background: white;
+    padding: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tabContainer:nth-child(2){
+    margin: 24px auto;
+}
+
+.tabContainer h3, .tabContainer p{
+    text-align: center;
+    margin-top: 12px;
+}
